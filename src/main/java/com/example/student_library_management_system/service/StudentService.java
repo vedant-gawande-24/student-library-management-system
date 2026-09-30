@@ -138,7 +138,7 @@ public class StudentService {
 
             return "Student with id : "+studentId+" updated successfully!";
         } else {
-            throw new RuntimeException("Student with id : "+studentId+" not found!");
+            throw new RuntimeException("Student with id : " + studentId + " not found!");
 
         }
     }
@@ -148,7 +148,7 @@ public class StudentService {
         if(student!=null){
             return student;
         } else {
-            throw new RuntimeException("Student with email : "+email+" not found");
+            throw new RuntimeException("Student with email : " + email + " not found");
         }
     }
 
@@ -157,7 +157,7 @@ public class StudentService {
         if(studentList!=null){
             return studentList;
         } else {
-            throw new RuntimeException("Student with email : "+dept+" not found");
+            throw new RuntimeException("Student with email : " + dept + " not found");
         }
     }
 }
